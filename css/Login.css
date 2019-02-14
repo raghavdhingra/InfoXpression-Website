@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.plane{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    filter: blur(3px);
+}
+.backblur{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+}
+.loginblock{
+    position: absolute;
+    background: rgba(255,255,255,0.9);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 70%;
+    width: 30%;
+    box-shadow: 1px 1px 2px 1px #000;
+    border-radius: 3px;
+}
+center{
+    font-family: 'Arvo', serif;
+}
+.userimg{
+    position: relative;
+    left: 30px;
+}
+.passimg{
+    position: relative;
+    left: 30px;
+}
+.loginbutton{
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    background: rgb(47, 202, 73);
+    transition: 0.2s;
+    text-align: center;
+    color: #eee;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.Forgotpw{
+    font-size: 8px;
+    position: relative;
+    top: 30px;
+}
+a{
+    text-decoration: none;
+}
+.showpw{
+    position: relative;
+    left: 55%;
+    font-size: 8px;
+}
+.logo{
+    position: relative;
+    font-size: 20px;
+}
